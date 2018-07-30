@@ -1,0 +1,8 @@
+/.vscode/
+/tsconfig.json
+/tslint.json
+/config.json
+/config.json-default
+/.gitignore
+/.npmignore
+/package-lock.json

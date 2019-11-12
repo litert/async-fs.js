@@ -1,6 +1,6 @@
 {
   "name": "@litert/async-fs",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A promise-like asynchronous filesystem api library.",
   "main": "./lib/index.js",
   "scripts": {
@@ -11,8 +11,7 @@
     "clean": "rm -rf lib",
     "lint": "tslint -p . -c tslint.json"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Angus.Fenying <fenying@litert.org> (https://fenying.net)",
   "license": "Apache-2.0",
   "repository": {
@@ -26,11 +25,11 @@
   "types": "./lib/index.d.ts",
   "typings": "./lib/index.d.ts",
   "dependencies": {
-    "@litert/core": "^0.6.0"
+    "@litert/core": "^1.0.6"
   },
   "devDependencies": {
-    "@types/node": "^10.1.2",
-    "typescript": "^2.8.1"
+    "@types/node": "^12.12.7",
+    "typescript": "^3.7.2"
   },
   "engines": {
     "node": ">=8.9.0"
